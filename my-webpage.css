@@ -1,0 +1,279 @@
+@media(max-width:600px){   
+body {
+    margin: 10;
+    font-family: helvetica;
+    }
+}
+body {
+    margin: 10;
+    font-family: helvetica;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.landing {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: goldenrod;
+    color: white;
+    padding: 0;
+}
+
+ .lefty{
+    font-size: 50px;
+    font-family: helvetica;
+    margin: 100px;
+    width: 60%;
+    border: 10px solid #fff;
+    padding: 20px;    
+}
+
+.okuhle {
+    width: 50%;
+    background-image: url('waterfront.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.hub {
+    display: flex;
+    height: 500px;
+    padding: 1em;
+}
+
+.hub h2 {
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.hub h3 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.hub p {
+    font-size: 17px;
+}
+.valley {
+    width : 50%;
+    padding: 40px;
+}
+.left {
+    background-image: url("silicon.jpg");
+}
+button {
+    background-color: goldenrod;
+    padding: 20px;
+    border: 0;
+    width: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media(max-width: 1103px){
+   .valley button{
+        display: none;
+    }
+}
+#language {
+    background-color: white;
+}
+.china {
+    height: 500px;
+}
+.china h3
+{
+font-size: 40px;
+color: goldenrod;
+text-align: center;
+}
+table {
+    background-color: goldenrod;
+    border-collapse: collapse;
+    margin: auto;
+  width: 60%;
+  border: 10px solid #000;
+  padding: 20px;
+}
+td {
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    height: 4em;
+    color: white;
+}
+th {
+    height: 5em;
+    
+    font-size: 25px;
+    
+}
+.historical h3 {
+    text-align: center;
+    font-size: 40px;  
+}
+.places {
+    width: 100%;                
+    display: flex;
+    padding: 10px;
+}
+.three {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.three h4 {
+    font-size: 25px;
+    text-align: center;
+}
+.three .district {
+    background-image: url('district6.jpg');
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    margin: 10;
+    height: 400px;
+}
+.three .city {
+    background-image: url('cityhall.jpg');
+    background-position: bottom;
+    background-size: cover;   
+    width: 100%;
+   /* //margin: 10; */
+    height: 400px;
+}
+.three .church {
+    background-image: url('church.jpg');
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    /* margin: 10; */
+    height:400px;
+}
+.three .content {
+    background-color: goldenrod;
+    color: white;
+    height: 380px;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+.sections {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    font-size: 20px;
+}
+@media (max-width: 845px) {
+    .lefty{
+        border: none;
+        text-align: left;
+    } 
+  
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+ }
+
+@media (max-width: 845px) {
+   .okuhle {
+       display: none;
+   } 
+}
+@media (max-width: 757px){
+    .hub {
+        display: block;
+        height: 100%;  
+        text-align: center;   
+    }
+    .left{
+        height: 250px;
+        width: 100%;
+    }  
+    .valley
+    {
+      width: max-content;
+    } 
+}
+@media (max-width: 600px){
+   
+    .places{
+        display: grid;
+    }
+   
+    .valley {
+        width: 100%;
+        text-align: center;
+
+    }
+    .china {
+        padding: 10px;
+        height: 100%;
+    }
+    th {
+        display: none;
+    }
+    table {
+        border: none;
+        width: 80%;
+    }
+    .china {
+        border: 10px solid black;
+    }
+}
+@media(max-width: 1058px)
+{ .places{
+    display: block;
+    margin: auto;
+    width: 60%;
+    }
+}
+
+@media (max-width: 667px)
+{
+
+   .three .content{
+    width: 400px;
+    padding: 0;
+    padding-top: 20px;
+    height: 300px;
+    margin-bottom: 20px;
+    }
+    .three .church{
+        height: 300px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .three .city{
+        height: 300px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .three .district{
+        height: 300px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .three {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+}
